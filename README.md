@@ -67,7 +67,7 @@
 
 ## Report
 
-- Normal raport ve excel export seçenekleri vardır.
+- Normal rapor ve excel export seçenekleri vardır.
 
 ```http
   GET /api/report
