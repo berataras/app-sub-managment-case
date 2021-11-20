@@ -1,3 +1,15 @@
+## Case Açıklama
+
+### Kurulan yapı 4 tablo üzerinden ilerliyor:
+
+#### 1. devices
+- register işleminden sonra alınan device bilgileri tutuluyor.
+#### 2. device_tokens
+- register işleminden sonra device'a döndürülen token bilgisi tutuluyor.
+#### 3. subscriptions
+- purchase işleminde başarılı olan sub'lar tutuluyor.
+#### 4. subscription_events
+- sub event'leri tutuluyor. started - renewed - canceled
 
 ## Register
 
