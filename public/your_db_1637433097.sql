@@ -1,0 +1,1 @@
+select subscriptions.app_id, event, os, count(event) as total_event from `subscriptions` inner join `subscription_events` on `subscription_events`.`app_id` = `subscriptions`.`app_id` inner join `devices` on `devices`.`uid` = `subscriptions`.`uid` group by `subscriptions`.`app_id`, `os`, `event`
